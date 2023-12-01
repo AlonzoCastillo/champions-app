@@ -1,0 +1,72 @@
+html, body {
+    padding: 0;
+    background-color: #1B1924;
+}
+
+.container, .input-tab {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto; 
+}
+
+h1, h3 { 
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+}
+
+input, textarea {
+    color: #8F8F8F;
+    background-color: #444059;
+}
+
+#endorsement-el {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+    height: 100px;
+}
+
+.sender {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+    width: 100px;
+}
+
+button {
+    color: #04131C;
+    background-color: #28A9F1;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+
+.singleEndorsement {
+    background: #fff;
+    display: block;
+    margin-bottom: 5px;
+    padding: 20px 15px;
+    color: #1B1924;
+    width: 270px;
+    margin: 15px auto;
+    text-align: left;
+}
